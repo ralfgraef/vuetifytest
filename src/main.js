@@ -14,6 +14,9 @@ import {
   VGrid,
   VToolbar,
   VCarousel,
+  VCard,
+  VJumbotron,
+  VDivider,
   transitions
 } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
@@ -29,6 +32,9 @@ Vue.use(Vuetify, {
     VGrid,
     VToolbar,
     VCarousel,
+    VCard,
+    VJumbotron,
+    VDivider,
     transitions
   },
   theme: {
