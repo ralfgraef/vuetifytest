@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout row wrap>
-      <v-flex xs12>
+      <v-flex xs12 sm10 md8 offset-sm1 offset-md2>
         <v-card>
           <v-container fluid>
             <v-layout row>
@@ -19,7 +19,10 @@
                   </div>
                 </v-card-title>
                 <v-card-actions>
-                  <v-btn flat>More Info</v-btn>
+                  <v-btn flat to="list/show/1">
+                    <v-icon left light>arrow_forward</v-icon>  
+                    More Info
+                  </v-btn>
                 </v-card-actions> 
               </v-flex>
             </v-layout>

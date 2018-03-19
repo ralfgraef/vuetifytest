@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>The ListCreateItem Page</p>
+    <p>The ListNew Page</p>
   </div>
 </template>
